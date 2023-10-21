@@ -1,0 +1,20 @@
+{
+  "name": "notesbackend",
+  "version": "1.0.0",
+  "description": "Implementing the backend of my notes App - Previously implemented using json-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kelvin Ontumbi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
